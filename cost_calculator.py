@@ -1,0 +1,13 @@
+print("Welcome to the Trip Calculator ! $")
+days=input("How many days will you stays ?  $" )
+hotel_cost=input("How much does hotel cost per night ?  $")
+flight_cost=input("How much does flight cost ?  $" )
+car_rental=input("If you need car rental please enter the price or else updated as zero. $")
+other_exp= input("Enter other expense if there is any? $")
+days= int(days)
+hotel_cost=float(hotel_cost)
+flight_cost=float(flight_cost)
+car_rental=float(car_rental)
+other_exp= float(other_exp)
+total_exp=days*hotel_cost+flight_cost+car_rental+other_exp
+print(f"Total Expense ={total_exp}")
